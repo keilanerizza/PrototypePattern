@@ -1,10 +1,11 @@
 package prototype;
 
-import java.util.Hashtable;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CalcaCache {
 	
-	private static Hashtable<String, Calca> calcaCache = new Hashtable<String, Calca>();
+	private static Map<String, Calca> calcaCache = new HashMap<String, Calca>(); 
 	
 	
 	/*

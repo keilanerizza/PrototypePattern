@@ -9,7 +9,7 @@ public class PrototypeDemo {
 	      CalcaCache.loadCache();
 
 	      Calca calcaClonada = (Calca) CalcaCache.getCalca("jeans");
-	      System.out.println("Calca clonada: "+ calcaClonada.getTipo());		
+	      System.out.println("Calça clonada: "+ calcaClonada.getTipo());		
 
 	      Calca calcaClonada2 = (Calca) CalcaCache.getCalca("legging");
 	      System.out.println("Calça clonada: " + calcaClonada2.getTipo());		
